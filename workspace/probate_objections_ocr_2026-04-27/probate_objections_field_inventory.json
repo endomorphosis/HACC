@@ -1,0 +1,441 @@
+{
+  "source_pdf": "/home/barberb/HACC/evidence/paper documents/Probate Objections.pdf",
+  "page_count": 1,
+  "has_acroform_fields": false,
+  "ocr_text": "/home/barberb/HACC/workspace/probate_objections_ocr_2026-04-27/probate_objections.txt",
+  "coordinate_system": {
+    "image_pixels": "origin top-left, rendered 300 dpi, size 2550x3300",
+    "pdf_points": "origin bottom-left; derived by point=pixel*0.24"
+  },
+  "fields": [
+    {
+      "id": "F01",
+      "label": "Caption: matter/person name",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        700,
+        350,
+        545,
+        45
+      ],
+      "pdf_points": {
+        "x": 168.0,
+        "y_top": 708.0,
+        "y_baseline_or_line": 697.2,
+        "width": 130.8,
+        "height": 10.8
+      },
+      "dependency": "case.person_name",
+      "recommended": "Jane Kay Cortez"
+    },
+    {
+      "id": "F02",
+      "label": "Case number",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        1660,
+        350,
+        600,
+        45
+      ],
+      "pdf_points": {
+        "x": 398.4,
+        "y_top": 708.0,
+        "y_baseline_or_line": 697.2,
+        "width": 144.0,
+        "height": 10.8
+      },
+      "dependency": "case.case_number",
+      "recommended": "26PR00641"
+    },
+    {
+      "id": "F03",
+      "label": "Caption second line / status",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        212,
+        515,
+        1018,
+        55
+      ],
+      "pdf_points": {
+        "x": 50.9,
+        "y_top": 668.4,
+        "y_baseline_or_line": 655.2,
+        "width": 244.3,
+        "height": 13.2
+      },
+      "dependency": "case.person_role",
+      "recommended": "Respondent / Protected Person"
+    },
+    {
+      "id": "F04",
+      "label": "Objector name",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        264,
+        673,
+        1069,
+        55
+      ],
+      "pdf_points": {
+        "x": 63.4,
+        "y_top": 630.5,
+        "y_baseline_or_line": 617.3,
+        "width": 256.6,
+        "height": 13.2
+      },
+      "dependency": "objector.name",
+      "recommended": "Benjamin Jay Barber"
+    },
+    {
+      "id": "F05",
+      "label": "Reasons line 1",
+      "kind": "multi_line_text",
+      "page": 1,
+      "image_bbox": [
+        212,
+        779,
+        2015,
+        42
+      ],
+      "pdf_points": {
+        "x": 50.9,
+        "y_top": 605.0,
+        "y_baseline_or_line": 595.0,
+        "width": 483.6,
+        "height": 10.1
+      },
+      "dependency": "objection.reasons.summary_or_first_line",
+      "recommended": "Short objection summary or first sentence."
+    },
+    {
+      "id": "F06",
+      "label": "Reasons line 2",
+      "kind": "multi_line_text",
+      "page": 1,
+      "image_bbox": [
+        212,
+        886,
+        2015,
+        42
+      ],
+      "pdf_points": {
+        "x": 50.9,
+        "y_top": 579.4,
+        "y_baseline_or_line": 569.3,
+        "width": 483.6,
+        "height": 10.1
+      },
+      "dependency": "objection.reasons.line_2",
+      "recommended": "Continue concise reasons; attach additional pages for full motion."
+    },
+    {
+      "id": "F07",
+      "label": "Reasons line 3",
+      "kind": "multi_line_text",
+      "page": 1,
+      "image_bbox": [
+        212,
+        992,
+        2015,
+        42
+      ],
+      "pdf_points": {
+        "x": 50.9,
+        "y_top": 553.9,
+        "y_baseline_or_line": 543.8,
+        "width": 483.6,
+        "height": 10.1
+      },
+      "dependency": "objection.reasons.line_3",
+      "recommended": "Continue concise reasons."
+    },
+    {
+      "id": "F08",
+      "label": "Reasons line 4",
+      "kind": "multi_line_text",
+      "page": 1,
+      "image_bbox": [
+        212,
+        1100,
+        2015,
+        42
+      ],
+      "pdf_points": {
+        "x": 50.9,
+        "y_top": 528.0,
+        "y_baseline_or_line": 517.9,
+        "width": 483.6,
+        "height": 10.1
+      },
+      "dependency": "objection.reasons.line_4",
+      "recommended": "Continue concise reasons."
+    },
+    {
+      "id": "F09",
+      "label": "Reasons line 5",
+      "kind": "multi_line_text",
+      "page": 1,
+      "image_bbox": [
+        212,
+        1206,
+        2015,
+        42
+      ],
+      "pdf_points": {
+        "x": 50.9,
+        "y_top": 502.6,
+        "y_baseline_or_line": 492.5,
+        "width": 483.6,
+        "height": 10.1
+      },
+      "dependency": "objection.reasons.line_5",
+      "recommended": "Use \u201cSee attached motion/memorandum\u201d if relying on attachment."
+    },
+    {
+      "id": "F10",
+      "label": "Objector signature for objection",
+      "kind": "manual_signature",
+      "page": 1,
+      "image_bbox": [
+        1429,
+        1532,
+        860,
+        55
+      ],
+      "pdf_points": {
+        "x": 343.0,
+        "y_top": 424.3,
+        "y_baseline_or_line": 411.1,
+        "width": 206.4,
+        "height": 13.2
+      },
+      "dependency": "objector.signature_after_review",
+      "recommended": "Manual signature required."
+    },
+    {
+      "id": "F11",
+      "label": "Date signed",
+      "kind": "date",
+      "page": 1,
+      "image_bbox": [
+        1429,
+        1640,
+        808,
+        50
+      ],
+      "pdf_points": {
+        "x": 343.0,
+        "y_top": 398.4,
+        "y_baseline_or_line": 386.4,
+        "width": 193.9,
+        "height": 12.0
+      },
+      "dependency": "filing.signature_date",
+      "recommended": "Date signed/filed."
+    },
+    {
+      "id": "F12",
+      "label": "Service recipient / attorney and address",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        226,
+        1870,
+        1485,
+        55
+      ],
+      "pdf_points": {
+        "x": 54.2,
+        "y_top": 343.2,
+        "y_baseline_or_line": 330.0,
+        "width": 356.4,
+        "height": 13.2
+      },
+      "dependency": "service.recipient_name_and_last_known_address",
+      "recommended": "Opposing party or attorney name/address."
+    },
+    {
+      "id": "F13",
+      "label": "Certificate preparation option A checkbox",
+      "kind": "checkbox",
+      "page": 1,
+      "image_bbox": [
+        309,
+        2490,
+        60,
+        60
+      ],
+      "pdf_points": {
+        "x": 74.2,
+        "y_top": 194.4,
+        "y_baseline_or_line": 180.0,
+        "width": 14.4,
+        "height": 14.4
+      },
+      "dependency": "document_preparation.option_A_clerk_dictation",
+      "recommended": "Check only if clerk prepared from oral dictation."
+    },
+    {
+      "id": "F14",
+      "label": "Certificate preparation option B checkbox",
+      "kind": "checkbox",
+      "page": 1,
+      "image_bbox": [
+        309,
+        2600,
+        60,
+        60
+      ],
+      "pdf_points": {
+        "x": 74.2,
+        "y_top": 168.0,
+        "y_baseline_or_line": 153.6,
+        "width": 14.4,
+        "height": 14.4
+      },
+      "dependency": "document_preparation.option_B_self_without_paid_assistance",
+      "recommended": "Likely check this if self-prepared without paid assistance."
+    },
+    {
+      "id": "F15",
+      "label": "Certificate preparation option C checkbox",
+      "kind": "checkbox",
+      "page": 1,
+      "image_bbox": [
+        309,
+        2705,
+        60,
+        60
+      ],
+      "pdf_points": {
+        "x": 74.2,
+        "y_top": 142.8,
+        "y_baseline_or_line": 128.4,
+        "width": 14.4,
+        "height": 14.4
+      },
+      "dependency": "document_preparation.option_C_paid_assistance",
+      "recommended": "Check only if paid/will pay someone."
+    },
+    {
+      "id": "F16",
+      "label": "Paid preparer name",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        974,
+        2648,
+        810,
+        50
+      ],
+      "pdf_points": {
+        "x": 233.8,
+        "y_top": 156.5,
+        "y_baseline_or_line": 144.5,
+        "width": 194.4,
+        "height": 12.0
+      },
+      "dependency": "document_preparation.paid_preparer_name_if_C",
+      "recommended": "Required only if option C is checked."
+    },
+    {
+      "id": "F17",
+      "label": "Objector signature for certificate",
+      "kind": "manual_signature",
+      "page": 1,
+      "image_bbox": [
+        1459,
+        2794,
+        833,
+        55
+      ],
+      "pdf_points": {
+        "x": 350.2,
+        "y_top": 121.4,
+        "y_baseline_or_line": 108.2,
+        "width": 199.9,
+        "height": 13.2
+      },
+      "dependency": "objector.signature_after_certificate_review",
+      "recommended": "Manual signature required."
+    },
+    {
+      "id": "F18",
+      "label": "Objector address",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        674,
+        2912,
+        1620,
+        55
+      ],
+      "pdf_points": {
+        "x": 161.8,
+        "y_top": 93.1,
+        "y_baseline_or_line": 79.9,
+        "width": 388.8,
+        "height": 13.2
+      },
+      "dependency": "objector.mailing_address",
+      "recommended": "10043 SE 32nd Ave, Milwaukie, OR 97222"
+    },
+    {
+      "id": "F19",
+      "label": "Objector phone number and email",
+      "kind": "text_on_line",
+      "page": 1,
+      "image_bbox": [
+        1229,
+        3010,
+        1068,
+        55
+      ],
+      "pdf_points": {
+        "x": 295.0,
+        "y_top": 69.6,
+        "y_baseline_or_line": 56.4,
+        "width": 256.3,
+        "height": 13.2
+      },
+      "dependency": "objector.phone_email",
+      "recommended": "971-270-0855; starworks5@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "case": [
+      "case.person_name -> F01",
+      "case.case_number -> F02",
+      "case.person_role -> F03"
+    ],
+    "objector": [
+      "objector.name -> F04",
+      "objector.signature_after_review -> F10",
+      "objector.signature_after_certificate_review -> F17",
+      "objector.mailing_address -> F18",
+      "objector.phone_email -> F19"
+    ],
+    "objection": [
+      "objection.reasons -> F05-F09",
+      "if reasons exceed five lines -> attach additional pages"
+    ],
+    "service": [
+      "service.recipient_name_and_last_known_address -> F12",
+      "service must match opposing party or counsel of record"
+    ],
+    "document_preparation": [
+      "choose exactly one or applicable boxes among F13/F14/F15",
+      "if F15 option C checked -> F16 required"
+    ],
+    "verification": [
+      "complete reasons and review form -> F10 + F11",
+      "complete preparation certificate -> F17"
+    ]
+  }
+}

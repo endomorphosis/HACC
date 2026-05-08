@@ -1,0 +1,20 @@
+digraph probate_objections_dependencies {
+  rankdir=LR;
+  node [shape=box, fontname="Helvetica"];
+  case_metadata -> F01_matter_name;
+  case_metadata -> F02_case_number;
+  case_metadata -> F03_caption_status;
+  objector_identity -> F04_objector_name;
+  objector_identity -> F18_address;
+  objector_identity -> F19_phone_email;
+  objection_grounds -> F05_F09_reasons_lines;
+  objection_grounds -> additional_pages_if_needed;
+  F05_F09_reasons_lines -> F10_signature;
+  F05_F09_reasons_lines -> F11_date;
+  service_information -> F12_service_recipient_address;
+  document_preparation_facts -> F13_option_A;
+  document_preparation_facts -> F14_option_B;
+  document_preparation_facts -> F15_option_C;
+  F15_option_C -> F16_paid_preparer_name;
+  document_preparation_facts -> F17_certificate_signature;
+}

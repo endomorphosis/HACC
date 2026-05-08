@@ -1,0 +1,22 @@
+flowchart TD
+  CASE[Case metadata] --> F01[F01 Matter/person name]
+  CASE --> F02[F02 Case No.]
+  CASE --> F03[F03 Caption status line]
+  OBJ[Objector identity] --> F04[F04 Objector name]
+  OBJ --> F18[F18 Address]
+  OBJ --> F19[F19 Phone/email]
+  REASONS[Objection grounds] --> F05[F05-F09 Reasons lines]
+  REASONS --> ATTACH[Additional pages if needed]
+  FORM_REVIEW[Review completed form] --> F10[F10 Objection signature]
+  FORM_REVIEW --> F11[F11 Date]
+  SERVICE[Service information] --> F12[F12 Opposing party/attorney + address]
+  PREP[Document preparation facts] --> A[F13 Option A: clerk dictation]
+  PREP --> B[F14 Option B: self-prepared, no paid help]
+  PREP --> C[F15 Option C: paid/will pay helper]
+  C --> F16[F16 Paid preparer name]
+  PREP --> F17[F17 Certificate signature]
+  F05 --> FORM_REVIEW
+  F06 --> FORM_REVIEW
+  F07 --> FORM_REVIEW
+  F08 --> FORM_REVIEW
+  F09 --> FORM_REVIEW
